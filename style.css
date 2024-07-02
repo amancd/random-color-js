@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+}
+
+body{
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 280px;
+    text-align: center;
+}
+
+.container{
+    background-color: #1F3A93;
+    padding: 20px;
+}
+
+button{
+    margin: 8px;
+    background-color: #F4D03F;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: #D35400;
+    color: white;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
